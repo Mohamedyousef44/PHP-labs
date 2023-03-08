@@ -1,0 +1,56 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: cadetblue;
+    height: 100vh;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: cadetblue;
+    height: 70vh;
+    width: 50%;
+}
+form{
+    width: 90%;
+    height: 80%;
+}
+
+form input {
+    width: 90%;
+    height: 10%;
+}
+
+#message {
+    width: 90%;
+    height: 30%;
+}
+.btn-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 90%;
+    
+}
+.btn-container button{
+    width:80px;
+    height: 40px;
+    
+}
+
+#after_submit{
+    height: 10%;
+    text-align: center;
+    color: red;
+}
